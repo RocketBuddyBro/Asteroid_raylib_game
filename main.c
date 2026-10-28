@@ -534,9 +534,9 @@ static void DrawTitleScreen(void)
                  470, 20, COLOR_YELLOW);
     }
 
-    DrawText("W / UP  THRUST     A D / ARROWS  ROTATE     SPACE  FIRE",
-             SCREEN_WIDTH / 2 - MeasureText("W / UP  THRUST     A D / ARROWS  ROTATE     SPACE  FIRE", 15) / 2,
-             535, 15, COLOR_MUTED);
+    DrawText("W / UP THRUST    A / D OR ARROWS TURN    SPACE FIRE",
+         24, SCREEN_HEIGHT - 27, 13,
+         WithAlpha(COLOR_MUTED, 0.86f));
     DrawText("Destroy rocks. Avoid collisions. Survive each wave.",
              SCREEN_WIDTH / 2 - MeasureText("Destroy rocks. Avoid collisions. Survive each wave.", 16) / 2,
              563, 16, WithAlpha(COLOR_MUTED, 0.72f));
